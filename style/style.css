@@ -1,0 +1,83 @@
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+    --white: hsl(0, 0%, 100%);
+}
+
+:root {
+    --header: 'Poppins', sans-serif;
+    --paragraph: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    /* background-color: var(--Violet); */
+
+    max-width: 1440px;
+}
+
+.container {
+    background: url("/images/bg-desktop.svg") no-repeat center center/cover;
+    margin: 2rem 4rem;
+    width: 7%;
+    height: 7%;
+}
+
+.logo img {
+    width: 15%;
+}
+
+.content {
+    margin: 6.5rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about_community {
+    padding: 0rem 3rem;
+    margin: 4rem 1rem;
+    color: var(--white)
+}
+
+.about_community h1 {
+    font-family: var(--header);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.about_community p {
+    font-family: var(--paragraph);
+    font-size: 15.6px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 1rem 0rem;
+
+}
+
+.about_community a {
+    background-color: var(--white);
+    text-decoration: none;
+    padding: 1rem 4rem;
+    border-radius: 29px;
+    font-family: var(--paragraph);
+    color: var(--Violet);
+}
+
+.register {
+    padding: 1.5rem 0rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
